@@ -19,18 +19,8 @@ align-items: center;
   animation-name:scale-in-center ;
   animation-duration: 2s;
 }
-@-webkit-keyframes scale-in-center {
-  0% {
-    -webkit-transform: scale(0);
-            transform: scale(0);
-    opacity: 1;
-  }
-  100% {
-    -webkit-transform: scale(1);
-            transform: scale(1);
-    opacity: 1;
-  }
-}
+
+
 @keyframes scale-in-center {
   0% {
     -webkit-transform: scale(0);
@@ -45,14 +35,8 @@ align-items: center;
 }
 
 
-
-
-
-
-
-
 .menu{
-   /* background-color: rgba(169, 99, 235, 0.696);*/
+   
     width:auto;
     overflow: hidden;
 }
@@ -92,7 +76,7 @@ ul li {
 
 .articulos-secundarios{
 width:20%;
-/*background-color: rgb(134, 29, 160);*/
+
 overflow: hidden;
 float: left;
 margin-top: 2%;
@@ -216,3 +200,6 @@ margin-top: 2%;
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+.footer-contenido {
+  text-align: center;
+}
